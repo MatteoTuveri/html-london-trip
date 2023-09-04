@@ -18,31 +18,36 @@
         <section><!--Expenses section-->
             <h2>Le mie spese</h2>
             <table><!--Expenses Table-->
-                <tr><!--Titles row-->
-                    <th><strong>Numero</strong></th>
-                    <th><strong>Descrizione</strong></th>
-                    <th><strong>Costo</strong></th>
-                </tr>
-                <tr><!--First row-->
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr><!--Second row-->
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr><!--Third row-->
-                    <td>1</td>
-                    <td>Biglietto Aereo</td>
-                    <td>120&euro;</td>
-                </tr>
-                <tr><!--Total Expenses row-->
-                    <td>Totale</td>
-                    <td> </td>
-                    <td>360&euro;</td>
-                </tr>
+                <thead>
+                    <tr><!--Titles row-->
+                        <th>Numero</th>
+                        <th>Descrizione</th>
+                        <th>Costo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><!--First row-->
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr><!--Second row-->
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                    <tr><!--Third row-->
+                        <td>1</td>
+                        <td>Biglietto Aereo</td>
+                        <td>120&euro;</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr><!--Total Expenses row-->
+                        <td colspan="2">Totale</td>
+                        <td>360&euro;</td>
+                    </tr>
+                </tfoot>
             </table><!--Table Closed-->
             <hr><!--divider-->
         </section><!--Finished Expenses section-->
@@ -61,35 +66,38 @@
         <section><!--Info section-->
             <h2>Info utili:</h2>
             <ol>
-                <li>Numeri utili di emergenza:
-                <ul><!--Numbers unordered list-->
-                    <li><strong>999</strong>- Emergenza</li>
-                    <li><strong>101</strong>- Numero Polizia</li>
-                    <li><strong>111</strong>- Numero Assistenza Medica</li>
-                </ul>
+                <li>
+                   <span>Numeri utili di emergenza:</span> 
+                    <ul><!--Numbers unordered list-->
+                        <li><strong>999</strong>- Emergenza</li>
+                        <li><strong>101</strong>- Numero Polizia</li>
+                        <li><strong>111</strong>- Numero Assistenza Medica</li>
+                    </ul>
                 </li>
-                <li>Hotel:
-                <ul><!--Hotel's data unordered list-->
-                    <li><strong>Nome Hotel</strong>: Buckingham Palace</li>
-                    <li><strong>Indirizzo Hotel</strong>: Westminster, London SW1A 1AA, Regno Unito</li>
-                </ul>
+                <li>
+                    <span>Hotel:</span>
+                    <ul><!--Hotel's data unordered list-->
+                        <li><strong>Nome Hotel</strong>: Buckingham Palace</li>
+                        <li><strong>Indirizzo Hotel</strong>: Westminster, London SW1A 1AA, Regno Unito</li>
+                    </ul>
                 </li>
-                <li>Aereo:
-                <ul><!--Flight's data unordered list-->
-                    <li><strong>Volo Di Andata</strong>: Y1234X, ore 9:30 da Milano Malpensa</li>
-                    <li><strong>Volo di Ritorno</strong>: Y1236X, ore 18:30 da London Heathrow</li>
-                </ul>
+                <li>
+                    <span>Aereo:</span>
+                    <ul><!--Flight's data unordered list-->
+                        <li><strong>Volo Di Andata</strong>: Y1234X, ore 9:30 da Milano Malpensa</li>
+                        <li><strong>Volo di Ritorno</strong>: Y1236X, ore 18:30 da London Heathrow</li>
+                    </ul>
                 </li>
             </ol>
             <hr><!--divider-->
         </section><!--Finished Info section-->
-        
-        <section><!--Photo section-->
-            <h2>Le foto</h2>
-            <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Millennium Bridge">
-            <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="London Bridge">
-        </section><!--Finished Photo section-->
+    </main><!--Main closed-->    
+       
+    <footer><!--Photo section-->
+        <h2>Le foto</h2>
+        <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="Millennium Bridge">
+        <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="London Bridge">
+    </footer><!--Finished Photo section-->
 
-    </main><!--Main closed-->
 </body>
 </html>
